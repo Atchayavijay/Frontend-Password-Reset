@@ -1,12 +1,12 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import FloatingShape from "./components/FloatingShape";
 
-import SignUpPage from "./pages/SignUpPage";
-import LoginPage from "./pages/LoginPage";
-import EmailVerificationPage from "./pages/EmailVerificationPage";
-import DashboardPage from "./pages/DashboardPage";
-import ForgotPasswordPage from "./pages/ForgotPasswordPage";
-import ResetPasswordPage from "./pages/ResetPasswordPage";
+import SignUpPage from "../src/pages/SignupPage";
+import LoginPage from "../src/pages/LoginPage";
+import EmailVerificationPage from "../src/pages/EmailVerificationPage";
+import DashboardPage from "../src/pages/DashboardPage";
+import ForgotPasswordPage from "../src/pages/ForgotPasswordPage";
+import ResetPasswordPage from "../src/pages/ResetPasswordPage";
 
 import LoadingSpinner from "./components/LoadingSpinner";
 
